@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AluraFlix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+  <div class="container">
+    <h1 class="page-title">
+      Aluraflix
+    </h1>
+    <img src="https://user-images.githubusercontent.com/121910576/257301160-11f2dba6-23f2-4a8a-8c14-10ca8825acc8.png" class="page-logo" alt="">
+    <p class="page-subtitle">
+      ¿ Cuál es tú película favorita?
+    </p>
+    <div class="form-wrapper">
+      <input type="url" id="pelicula" name="pelicula" placeholder="Agregue la url de la imagen">
+      <input type="text" id="titulo" name="pelicula" placeholder="Agregue el título de la pelicula">
+      <input type="url" id="avance" name="pelicula" placeholder="Agregue la url de el avance">
+      <button onClick="agregarPelicula()">Agregar película</button>
+       <button onClick="quitarPelicula()">Quitar última película</button>
+    </div>
+  </div>
+  <div id="listaPeliculas">
+    
+  </div>
+  <a href="https://www.aluracursos.com/" target="_blank">
+    <img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="" class="alura-latam-logo">
+  </a>
+
+
+ <script src="app.js"></script>
+</body>
+</html>
